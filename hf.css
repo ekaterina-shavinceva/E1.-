@@ -1,0 +1,55 @@
+.header {
+	background-color: #101010;
+
+}
+
+.inner-header {
+	display:flex;
+}
+
+.logo-container {
+	color: white;
+	display:flex;
+	margin-left: 10px;
+}
+
+.navigation{
+    float: right;
+    height: 100%;
+}
+ 
+.navigation a{
+    text-decoration: none;
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 15px 20px;
+    background-color: #101010;
+}
+ 
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+}
+ 
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
+
+.image {
+  float: left;
+  shape-margin: 20px;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.text {
+  overflow: hidden;
+}
+
